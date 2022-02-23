@@ -330,25 +330,26 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+
 			
-		window.onload = function () {
-			web_event.track("product", "add_to_cart", {
-			     items: [{
-				"type": "product",
-				"id": "10038401",
-				"name": "Máy giặt Electrolux Inverter 8 kg EWF8025BQWA"
-				"sku": "",
-				"brand": "Electrolux",
-				"main_category": "Điện lạnh",
-				"category_level_1": "",
-				"category_level_2": "",
-				"price": 9990000,
-				"quantity": 1,
-				"image_url": "",
-				"page_url": ""
-			    }],
-			});
-		}
+	window.onload = function () {
+	    window.web_event.track("product", "add_to_cart", {
+		items: [{
+			"type": "product",
+			"id": "10038401",
+			"name": "Máy giặt Electrolux Inverter 8 kg EWF8025BQWA"
+			"sku": "",
+			"brand": "Electrolux",
+			"main_category": "Điện lạnh",
+			"category_level_1": "",
+			"category_level_2": "",
+			"price": 9990000,
+			"quantity": 1,
+			"image_url": "",
+			"page_url": ""
+		}],
+	    });
+	}
 			
 	</body>
 </html>
