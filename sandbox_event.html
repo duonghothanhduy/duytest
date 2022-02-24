@@ -12,14 +12,44 @@
 	    <meta name="brand" content="DUYNGOC Fashion">
 	    <meta name="category" content="12338">
 		<link rel="stylesheet" href="assets/css/main.css" />
+	<!-- CDP Web Insight script -->
+		<script type = "text/javascript" >
+		   var _portalId = "564889466"; // Portal QC name 04 
+		   var _propId = "556301172"; // https://duonghothanhduy.github.io/duytest/sandbox_event
+		(function() {
+		    var w = window;
+		    if (w.web_event) return;
+		    var a = window.web_event = function() {
+			a.queue.push(arguments);
+		    }
+		    a.propId = _propId;
+		    a.track = a;
+		    a.queue = [];
+		    var e = document.createElement("script");
+		    e.type = "text/javascript", e.async = !0, e.src = "//sandbox-st-a.cdp.asia/insight.js";
+		    var t = document.getElementsByTagName("script")[0];
+		    t.parentNode.insertBefore(e, t)
+		})(); </script>
+		<!-- End of CDP Web Insight script -->
 	</head>
-	<body class="homepage is-preload">
-	 <div>
-        <!--- Script SSP - 300x250 -->
-        <script async src="//sandbox-e.anthill.vn/delivery-ants/asset/1.0/ants.js"></script>
-        <div class="521471587" data-ants-zone-id="521471587"></div>
-        <!--- end ssp Script -->
-	 </div>
-
+	<body>
+	<script>		
+	    window.web_event.track("bo_product_d_xem", "add_to_cart", {
+		items: [{
+			"type": "bo_product_d_xem",
+			"id": "348780",
+			"name": "Máy giặt Electrolux Inverter 8 kg EWF8025BQWA",
+			"sku": "",
+			"brand": "Electrolux",
+			"main_category": "Điện lạnh",
+			"category_level_1": "",
+			"category_level_2": "",
+			"price": 9990000,
+			"quantity": 1,
+			"image_url": "",
+			"page_url": ""
+		}]
+	    });
+	</script>
 	</body>
 </html>
