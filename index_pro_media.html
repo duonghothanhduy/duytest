@@ -324,7 +324,7 @@
 		}]
 	    });
 	</script> -->
-			
+<!--			
 	<script>		
 	window.web_event.track("user", "identify", {
 		    items: [{ 
@@ -336,8 +336,19 @@
 		}]
 	});
 	</script>
-			
-					
+-->
+	<script>
+	window.web_event.track("lead_form", "submit", {
+	items: [{
+		"type": "lead",
+		"name": "Barack Obama"
+		"phone": "0912345678",
+		"email": "obama@gmail.com"
+	    }]
+	});	
+	</script>
+		
+		
 <!--	<script>		
 	window.web_event.track("user", "sign_in", {
 		    extra: { 
